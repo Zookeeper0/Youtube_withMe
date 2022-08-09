@@ -1,16 +1,16 @@
-import { signInWithPopup, GoogleAuthProvider,GithubAuthProvider } from 'firebase/auth';
+import { signInWithPopup, GoogleAuthProvider, GithubAuthProvider } from 'firebase/auth';
 import { authService, firebaseInstance } from '../myBase';
 import React, { useState } from "react";
 import AuthForm from 'components/AuthForm';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faTwitter,
     faGoogle,
     faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+import main from "../image/main.png";
 
 const Auth = () => {
-    const onSocialClick = async(event) => {
+    const onSocialClick = async (event) => {
         const {
             target: { name },
         } = event;
@@ -26,8 +26,8 @@ const Auth = () => {
 
     return (
         <div className="authContainer">
-            <FontAwesomeIcon
-                icon={faTwitter}
+            <img
+                src={main}
                 color={"#04AAFF"}
                 size="3x"
                 style={{ marginBottom: 30 }}

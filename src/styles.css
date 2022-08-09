@@ -292,7 +292,7 @@ form {
 
 .authSubmit {
   text-align: center;
-  background: #04aaff;
+  background: #c4302b;
   color: white;
   margin-top: 10;
   cursor: pointer;
@@ -306,7 +306,7 @@ form {
 }
 
 .authSwitch {
-  color: #04aaff;
+  color: #c4302b;
   cursor: pointer;
   margin-top: 10px;
   margin-bottom: 50px;
@@ -331,5 +331,4 @@ form {
 footer {
   clear: both;
   position: relative;
-  margin-top: 300px;
 }
