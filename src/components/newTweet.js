@@ -69,7 +69,7 @@ const NewTweet = ({ newTweetObj, isOwner, userObj }) => {
                 </>
             ) : (
                 <>
-                    <NewTweetProfile userObj={userObj} />
+                    <NewTweetProfile userObj={userObj} newTweetObj={newTweetObj} />
                     {/* <h4 href={newTweetObj.text}>{newTweetObj.text}</h4> */}
                     <LinkPreview url={newTweetObj.text} />
                     {newTweetObj.imageUrl && (
