@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-twitter/static/css/main.d71e207e.css",
+    "main.js": "/react-twitter/static/js/main.46ab273d.js",
+    "static/media/wakMain.png": "/react-twitter/static/media/wakMain.a683aab0d94a247e10f5.png",
+    "static/media/userProfile.png": "/react-twitter/static/media/userProfile.96ed2d76662845232f6f.png",
+    "static/media/youtube.png": "/react-twitter/static/media/youtube.24552adda5b7d8ae5978.png",
+    "static/media/wakProfile.png": "/react-twitter/static/media/wakProfile.5c5d4ce1e7a737b364fa.png",
+    "index.html": "/react-twitter/index.html",
+    "main.d71e207e.css.map": "/react-twitter/static/css/main.d71e207e.css.map",
+    "main.46ab273d.js.map": "/react-twitter/static/js/main.46ab273d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d71e207e.css",
+    "static/js/main.46ab273d.js"
+  ]
+}
