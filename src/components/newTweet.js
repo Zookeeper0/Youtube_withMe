@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash, faPencilAlt } from "@fortawesome/free-solid-svg-icons";
 import { LinkPreview } from "@dhaiwat10/react-link-preview";
 import NewTweetProfile from "./NewTweetProfile";
+import ReactPlayer from "react-player";
 
 const NewTweet = ({ newTweetObj, isOwner, userObj }) => {
     //편집 모드인지 아니지 알려주는 editing
@@ -71,7 +72,15 @@ const NewTweet = ({ newTweetObj, isOwner, userObj }) => {
                 <>
                     <NewTweetProfile userObj={userObj} newTweetObj={newTweetObj} />
                     {/* <h4 href={newTweetObj.text}>{newTweetObj.text}</h4> */}
-                    <LinkPreview url={newTweetObj.text} />
+                    <ReactPlayer
+                        className="player"
+                        url={newTweetObj.text}
+                        width="380px"
+                        heigth="280px"
+                        playing={false}
+                        muted={true}
+                        controls={true}
+                    />
                     {newTweetObj.imageUrl && (
                         <img src={newTweetObj.imageUrl} />
                     )}
@@ -94,3 +103,5 @@ const NewTweet = ({ newTweetObj, isOwner, userObj }) => {
 };
 
 export default NewTweet;
+
+

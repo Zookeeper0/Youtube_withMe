@@ -20,8 +20,10 @@
     "http-proxy-middleware": "^2.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-player": "^2.10.1",
     "react-router-dom": "^5.3.0",
     "react-scripts": "5.0.1",
+    "react-tiny-link": "^3.6.1",
     "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
@@ -50,6 +52,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://rlp-proxy.herokuapp.com",
   "homepage": "https://Zookeeper0.github.io/react-twitter"
 }

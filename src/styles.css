@@ -100,7 +100,13 @@ form {
   align-items: center;
   width: 100%;
   justify-content: "center";
-  margin-bottom: 23px;
+  margin-bottom: 13px;
+}
+
+.factoryForm_title {
+  margin-bottom: 30px;
+  margin-left: -29px;
+  width: 120%;
 }
 
 .factoryInput__container {
@@ -201,7 +207,7 @@ form {
 }
 
 .nweet img {
-  right: 146px;
+  right: 170px;
   top: -17px;
   position: absolute;
   border-radius: 50%;
@@ -222,7 +228,7 @@ form {
   border-radius: 50%;
   margin-bottom: -45px;
   background-color: #383838;
-  width: 200px;
+  width: 228px;
   padding: 12px;
   padding-top: 13px;
   border-radius: 30px;

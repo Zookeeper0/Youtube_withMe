@@ -68,19 +68,20 @@ const TweetForm = ({ userObj }) => {
 
     const onClearImage = () => setImage("");
     return (
-        <form onSubmit={onSubmit} className="factoryForm">
-            <div className="factoryInput__container">
-                <input
-                    className="factoryInput__input"
-                    value={newTweet}
-                    onChange={onChange}
-                    type="text"
-                    placeholder="팬치들과 공유할 Youtube URL을 넣어주세요!"
-                    maxLength={120}
-                />
-                <input type="submit" value="&rarr;" className="factoryInput__arrow" />
-            </div>
-            {/* <label htmlFor="attach-file" className="factoryInput__label">
+        <>
+            <form onSubmit={onSubmit} className="factoryForm">
+                <div className="factoryInput__container">
+                    <input
+                        className="factoryInput__input"
+                        value={newTweet}
+                        onChange={onChange}
+                        type="text"
+                        placeholder="팬치들과 공유할 Youtube URL을 넣어주세요!"
+                        maxLength={120}
+                    />
+                    <input type="submit" value="&rarr;" className="factoryInput__arrow" />
+                </div>
+                {/* <label htmlFor="attach-file" className="factoryInput__label">
                 <span>사진 추가</span>
                 <FontAwesomeIcon icon={faPlus} />
             </label>
@@ -106,7 +107,12 @@ const TweetForm = ({ userObj }) => {
                     </div>
                 </div>
             )} */}
-        </form>
+            </form>
+            <div className="factoryForm_title">
+                🙄 영상 미리보기 라이브러리 에러로 초반 렉이 걸립니다 고쳐볼게요
+            </div>
+        </>
+
     );
 };
 
