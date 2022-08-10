@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-twitter/static/css/main.18aa2238.css",
-    "main.js": "/react-twitter/static/js/main.df6f47cb.js",
+    "main.css": "/react-twitter/static/css/main.1a1e8a98.css",
+    "main.js": "/react-twitter/static/js/main.a812851e.js",
     "static/media/wakMain.png": "/react-twitter/static/media/wakMain.a683aab0d94a247e10f5.png",
     "static/media/userProfile.png": "/react-twitter/static/media/userProfile.96ed2d76662845232f6f.png",
     "static/media/main.png": "/react-twitter/static/media/main.abc12fbdb4d6219444cd.png",
     "static/media/youtube.png": "/react-twitter/static/media/youtube.24552adda5b7d8ae5978.png",
     "static/media/wakProfile.png": "/react-twitter/static/media/wakProfile.5c5d4ce1e7a737b364fa.png",
     "index.html": "/react-twitter/index.html",
-    "main.18aa2238.css.map": "/react-twitter/static/css/main.18aa2238.css.map",
-    "main.df6f47cb.js.map": "/react-twitter/static/js/main.df6f47cb.js.map"
+    "main.1a1e8a98.css.map": "/react-twitter/static/css/main.1a1e8a98.css.map",
+    "main.a812851e.js.map": "/react-twitter/static/js/main.a812851e.js.map"
   },
   "entrypoints": [
-    "static/css/main.18aa2238.css",
-    "static/js/main.df6f47cb.js"
+    "static/css/main.1a1e8a98.css",
+    "static/js/main.a812851e.js"
   ]
 }
