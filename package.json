@@ -2,7 +2,6 @@
   "name": "react-twitter",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://rlp-proxy.herokuapp.com",
   "dependencies": {
     "@dhaiwat10/react-link-preview": "^1.14.2",
     "@fortawesome/fontawesome-free": "^5.14.0",
@@ -14,6 +13,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
     "dotenv": "^16.0.1",
     "firebase": "^9.8.4",
     "gh-pages": "^4.0.0",
@@ -50,5 +50,6 @@
       "last 1 safari version"
     ]
   },
+  "proxy": "https://rlp-proxy.herokuapp.com",
   "homepage": "https://Zookeeper0.github.io/react-twitter"
 }
