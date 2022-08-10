@@ -2,7 +2,7 @@
   "name": "react-twitter",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://rlp-proxy.herokuapp.com/",
+  "proxy": "https://rlp-proxy.herokuapp.com",
   "dependencies": {
     "@dhaiwat10/react-link-preview": "^1.14.2",
     "@fortawesome/fontawesome-free": "^5.14.0",
